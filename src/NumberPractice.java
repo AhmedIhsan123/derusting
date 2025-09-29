@@ -13,13 +13,14 @@ public class NumberPractice {
     // (A number is even if it has a remainder of zero when divided by 2)
     // Use an if-else to print "Even" if the number is even and "Odd"
     // if the number is odd.
-    if (positiveInt % 2 == 0) {
-      System.out.println("Number is Odd!");
+    if ((positiveInt % 2) == 0) {
+      System.out.println("Even!");
     } else {
-      System.out.println("Number is Even!");
+      System.out.println("Odd!");
     }
     
     // Divide the number by another number using integer division
+    int dividedNum = positiveInt / 5;
 
     /*
      * Reminder!
