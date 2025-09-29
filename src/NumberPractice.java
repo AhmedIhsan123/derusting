@@ -2,12 +2,14 @@ public class NumberPractice {
   public static void main(String args[]) {
     // Create a float with a negative value and assign it to a variable
     float negativeFloat = -1.0f;
+    System.out.println("Negative Float Value: " + negativeFloat);
 
     // Create an int with a positive value and assign it to a variable
     int positiveInt = 15;
 
     // Use the modulo % operator to find the remainder when the int is divided by 3
     int remainder = (positiveInt % 3);
+    System.out.println("Remainder: " + remainder);
 
     // Use the modulo % operator to determine whether the number is even
     // (A number is even if it has a remainder of zero when divided by 2)
@@ -21,6 +23,7 @@ public class NumberPractice {
     
     // Divide the number by another number using integer division
     int dividedNum = positiveInt / 5;
+    System.out.println("Integer Division: " + dividedNum);
 
     /*
      * Reminder!
