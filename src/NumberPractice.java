@@ -1,10 +1,13 @@
 public class NumberPractice {
   public static void main(String args[]) {
     // Create a float with a negative value and assign it to a variable
+    float negativeFloat = -1.0f;
 
     // Create an int with a positive value and assign it to a variable
+    int positiveInt = 14;
 
     // Use the modulo % operator to find the remainder when the int is divided by 3
+    int remainder = (positiveInt % 3);
 
     // Use the modulo % operator to determine whether the number is even
     // (A number is even if it has a remainder of zero when divided by 2)
